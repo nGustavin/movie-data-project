@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "movie-data-project"
+version = "0.1.0"
+description = ""
+authors = ["Gustavo Fernandes <contact.gustaf@proton.me>"]
+readme = "README.md"
+packages = [{include = "movie_data_project"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "latest"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
